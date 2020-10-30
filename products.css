@@ -2,6 +2,9 @@
     height: 420px;
     width: 654px;
     margin: 50px auto;
+    
+    
+    display: inline-block;
     border-radius: 7px 7px 7px 7px;
     
     -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -52,6 +55,13 @@
     text-transform: uppercase;
     color: #d2d2d2;
     letter-spacing: 0.2em;
+  }
+
+  .product-text h3{
+    margin-top: 15px;
+    margin-left: 35px
+
+
   }
   
   .product-text p {
