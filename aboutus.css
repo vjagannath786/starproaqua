@@ -1,0 +1,11 @@
+
+
+.aboutus{
+    display: flex;       
+    width: 70%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 20%;
+    max-width: 40%;
+    align-items: center;
+}
