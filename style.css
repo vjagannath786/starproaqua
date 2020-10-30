@@ -48,9 +48,8 @@ nav{
     margin: auto;
     min-height: 100vh;
     align-items: center;
-    
-    
-    
+    background-image: url(./images/pngtree.jpg);
+    background-size: 500px 500px;
 }
 
 
@@ -70,7 +69,7 @@ nav{
 
 
 .animated-title {
-  color: #222;
+  color:#222;
   font-family: Robotto, Arial, sans-serif;
   height: 90vmin;
   left: 50%;
@@ -118,23 +117,12 @@ nav{
   transform: translate(0, -100%);
 }
 
-
-@keyframes learnmore {
-  0%   { left:300px; top:500px;}
-  50%  { left:300px; top :250px;}
-  100% { left:300px; bottom:125px; }
-}
-
 .learnmore
 {
   position: absolute;
-  top: 70%;
-  left:40%;
-  animation: learnmore 1s;
-  animation-duration: 2s;
-  animation-timing-function:ease; 
-  animation-delay: 3s;
-  
-}
+  top: 80%;
+  left: 40%;
 
+
+}
 
