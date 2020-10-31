@@ -48,8 +48,14 @@ nav{
     margin: auto;
     min-height: 100vh;
     align-items: center;
-    background-image: url(./images/pngtree.jpg);
-    background-size: 500px 500px;
+    
+}
+
+.cover_img {
+  object-fit: contain;
+  width: 90%;
+  margin-left: 10%;
+  opacity: 0.6;
 }
 
 
@@ -69,7 +75,7 @@ nav{
 
 
 .animated-title {
-  color:#222;
+  color: #222;
   font-family: Robotto, Arial, sans-serif;
   height: 90vmin;
   left: 50%;
